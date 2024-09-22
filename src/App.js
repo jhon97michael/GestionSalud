@@ -1,10 +1,10 @@
 import './App.css';
-import { PaginaInicio } from './paginaInicio/PaginaInicio';
+import { Header } from './Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <PaginaInicio 
+      <Header 
         
       />
     </div>
