@@ -1,4 +1,7 @@
 import React from "react";
+import  '../assets/styles/header.css';
+import logo from '../assets/images/logo.png'
+
 
 
 function Header() {
@@ -6,7 +9,7 @@ function Header() {
         <div>
             <header>
                 <nav>
-                    <img src="" alt="" />
+                    <img className="logo" src={logo} alt="Logo de la empresa" />
                     <ul>
                         <li><a href="#">Inicio</a></li>
                         <li><a href="#">Servicios</a></li>
